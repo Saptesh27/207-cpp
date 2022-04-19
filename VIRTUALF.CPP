@@ -3,7 +3,7 @@
 class base
  {
   public:
-	 virtual void show();
+	 virtual void show(); //declaring virtual function with "virtual" keyword
  };
 
 void base::show()
@@ -12,7 +12,7 @@ void base::show()
 
     }
 
-class derived:public base
+class derived:public base //Derived "derived" class From "base" class.
  {
   public: void show();
 
